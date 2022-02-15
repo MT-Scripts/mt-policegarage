@@ -42,7 +42,7 @@ RegisterNetEvent('mt-policegarage:menu', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Garagem LSPD",
+            header = "Garage LSPD",
             txt = ""
         },
         {
@@ -107,7 +107,7 @@ RegisterNetEvent('mt-policegarage:menu', function()
         },
         {
             id = 9,
-            header = "Guardar veiculo",
+            header = "Store Vehicle",
             txt = "",
             params = {
                 event = "mt-policegarage:guardar",
@@ -131,7 +131,7 @@ Citizen.CreateThread(function ()
                 type = "Client",
                 event = "mt-policegarage:menu",
                 icon = "fas fa-car",
-                label = 'Aceder a Garagem'
+                label = 'Open Garage'
             },
         },
         distance = 10
